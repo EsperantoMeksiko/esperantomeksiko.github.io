@@ -3,40 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" href="styles.css" rel="stylesheet">
     <title>Mia Interretero (Blogo)</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
+
         header {
             background-color: #844caf;
-            color: white;
-            padding: 10px 0;
-            display: flex;
-            height: 100px; /* Adjust height to fit content */
         }
         header img {
             height: 90%;
             left: 10px; /* Distance from the left edge */
             margin-left: 0.5%;
         }
-        header .text {
-            flex: 1;
-            text-align: center;
-        }
-        .espacioDeBotones {
-            background-color: #844caf;
-            color: white;
-            padding: 10px 0;
-            text-align: center;
-        }
-        .buttons {
-            text-align: center;
-            margin-top: 20px;
-        }
+
         .buttons button {
             background-color: #844caf;
             color: white;
@@ -45,29 +24,12 @@
             margin: 5px;
             cursor: pointer;
             border-radius: 5px;
-            border: 2px solid #6c3b91; /* Color verde un poco más oscuro */
+            border: 2px solid #6c3b91;
         }
         .buttons button:hover {
             background-color: #8e5fb1;
         }
-        main {
-            margin: 20px;
-        }
-        .saluto {
-            background-color: white;
-            border: 1px solid #ddd;
-            padding: 20px;
-            text-align: center;
-            margin-bottom: 20px;
-        }
-        .contenido {
-            background-color: white;
-            border: 1px solid #ddd;
-            padding: 20px;
-            text-align: center;
-            margin-bottom: 20px;
-
-        }
+        
         .left-align {
             
             text-align: left;
@@ -87,22 +49,16 @@
 
 </head>
 <body>
-    <div class="espacioDeBotones">
-        <div class="text">
-            <div class="buttons">
-                <button onclick="window.location.href='index.html'">Hejmpaĝo</button>
-                <button onclick="window.location.href='miainterretero_inicio.html'">Mia Interretero (Blogo)</button>
-                <button onclick="window.location.href='https://lastajneuxronoj.wordpress.com/'">Lastaj Neŭronoj</button>
-                <button onclick="window.location.href='tik_toks.html'">Tik Tokoj </button>
-            </div>
-        </div>
-    </div>
     <header>
         <img src="src/pou_pro.jpg" alt="Pou, kiu diras 'Qué Pro'" width="100" height="100">
-        <div class="text">
-            <h1>Mia Interretero</h1>
-        </div>
-    </header>
+        <nav class="buttons">
+            <button onclick="window.location.href='index.html'">Hejmpaĝo/Página Principal</button>
+            <button onclick="window.location.href='miainterretero_inicio.html'">Mia Interretero (Blogo/Blog)</button>
+            <button onclick="window.location.href='https://lastajneuxronoj.wordpress.com/'">Lastaj Neŭronoj (Blogo/Blog)</button>
+            <button onclick="window.location.href='tik_toks.html'">Tik Tokoj/Tik Toks </button>
+        </nav>
+        <h1>Mia Interretero</h1>
+</header>
     <main>
         <div class="saluto">
             <h2>Saluton kaj bonvenon al Mia Interretero, mia persona Blogo.</h2>
@@ -111,7 +67,7 @@
         <div class="contenido" >
             <div class="left-align">
                 <div class="paragraph-group">
-                    <h3>Saluton, mi alnomiĝas La Pretoro kaj mi estas meksikano.</h3>
+                    <h3>Saluton, mi alnomiĝas (min mem) La Pretoro kaj mi estas meksikano.</h3>
                 </div>
                 <div class="paragraph-group">
                     <h3>
@@ -137,7 +93,7 @@
         <div class="contenido">
             <div class="left-align">
                 <div class="paragraph-group">
-                    <h3>Hola, mi nombre es Ernesto y soy Mexicano</h3>
+                    <h3>Hola, mi autoapodo es El Pretor y soy Mexicano</h3>
                 </div>
                 <div class="paragraph-group">
                     <h3>
