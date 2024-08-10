@@ -1,0 +1,4 @@
+This is a Brave Creators publisher verification file.
+
+Domain: esperantomeksiko.github.io
+Token: 7ce5c530928b373e82d8d857673a939a35a8397ee0eebf9206288031a1c1a02a
